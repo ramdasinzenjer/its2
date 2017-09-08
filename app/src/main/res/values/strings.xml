@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UIS</string>
+
+    <string name="title_activity_adhar">Adhar</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="logo">logo</string>
+    <string name="logoo">logoo</string>
+    <string name="title_activity_license">License</string>
+    <string name="title_activity_pancard">pancard</string>
+    <string name="ok">OK</string>
+    <string name="enter_the_current_ip">Enter the current IP</string>
+    <string name="validto">validto</string>
+    <string name="pancard_discription">pancard discription</string>
+    <string name="face_string_appbar_scrolling_view_behavior">face @string/appbar_scrolling_view_behavior</string>
+</resources>
