@@ -1,6 +1,5 @@
 package in.inz.uniqueidentificationsystem;
 
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +7,6 @@ import android.view.View;
 
 public class appdrawer extends AppCompatActivity {
 
-    final  View view = this.findViewById(android.R.id.content).getRootView();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,10 +18,7 @@ public class appdrawer extends AppCompatActivity {
     {
         Intent i = new Intent(this , Adhar.class);
         startActivity(i);
-        //TODO add animation
 
-        ActivityOptions options = ActivityOptions.makeScaleUpAnimation(view, 0,
-                0, view.getWidth(), view.getHeight());
     }
    public void launchpan(View v)
     {
