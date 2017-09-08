@@ -29,6 +29,7 @@ public class otp extends AppCompatActivity {
 
                     Intent myIntent = new Intent(view.getContext(), appdrawer.class);
                     startActivityForResult(myIntent, 0);
+                    overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
                 }
             }
         });
